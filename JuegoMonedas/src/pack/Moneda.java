@@ -33,10 +33,14 @@ public class Moneda {
 
 	@Override
 	public String toString() {
+		
 		return "Moneda [valor=" + valor + ", posicion=" + posicion + "]";
 	}
 	
+	public void imprimirMonedas() {
+		System.out.println("Sale una moneda de " + valor + " y cae " + posicion);
+	}
 	
 	
-	
+		
 }
